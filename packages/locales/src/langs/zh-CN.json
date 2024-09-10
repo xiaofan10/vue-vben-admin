@@ -1,5 +1,9 @@
 {
   "page": {
+    "setting": {
+      "title": "基础设置",
+      "field": "字段设置"
+    },
     "core": {
       "login": "登陆",
       "register": "注册",
@@ -8,6 +12,7 @@
       "forgetPassword": "忘记密码"
     },
     "dashboard": {
+      "setting": "设置",
       "title": "概览",
       "analytics": "分析页",
       "workspace": "工作台"

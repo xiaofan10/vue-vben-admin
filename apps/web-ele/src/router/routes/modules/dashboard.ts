@@ -9,11 +9,20 @@ const routes: RouteRecordRaw[] = [
     meta: {
       icon: 'lucide:layout-dashboard',
       order: -1,
-      title: $t('page.dashboard.title'),
+      title: $t('page.setting.title'),
     },
-    name: 'Dashboard',
+    name: 'Setting',
     path: '/',
     children: [
+      {
+        name: 'Field',
+        path: '/field',
+        component: () => import('#/views/setting/field/index.vue'),
+        meta: {
+          icon: 'lucide:area-chart',
+          title: $t('page.setting.field'),
+        },
+      },
       {
         name: 'Analytics',
         path: '/analytics',
