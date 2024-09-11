@@ -1,9 +1,12 @@
 <script setup lang="ts">
+import FormView from './form-view.vue';
 // const props = defineProps<{
 //   modelValue?: boolean;
 // }>();
 </script>
 
 <template>
-  <div>愉快的开发吧</div>
+  <div>
+    <FormView />
+  </div>
 </template>
